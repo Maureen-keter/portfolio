@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height:80vh;
+    background: #111111;
+}
+
+nav{
+    display: flex;
+    padding: 20px 0;
+    margin: auto;
+    align-items: center;
+    justify-content:flex-end
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(226, 17, 100);
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover{
+    color: blue;
+}
+
+.content{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.content{
+    font-size: 30px;
+    color: hsl(30, 20%, 96%);
+    margin-bottom: 3px;
+}
+span{
+    color:rgb(226, 17, 100);
+    
+}
+.content p{
+    color: hwb(20 93% 6%);
+    line-height:40px;
+}
+.content a{
+    background: black;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(138, 32, 90);
+    display: inline-block;
+    margin:10px 0;
+    border-radius: 5px; 
+}
+.images{
+    height: 80%;
+    width:40%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    border-radius: 5px; 
+}
+.images img{
+    height:80% ;
+    position: absolute;
+    left:40%;
+    bottom: 20px;
+    background-color: #111111;
+}
+    
+.Education{
+    background: #111111;
+    color: aliceblue;
+    font-size: 13px;
+    display: flex;
+    margin-right: auto;
+    padding: 5px 5px ; 
+   
+}
+.edu{
+    background:#111111;
+    color: aliceblue;
+    font-size: 13px;
+    margin-right: auto;
+    padding: 20px 5px 20px; 
+    justify-content: end;
+    line-height: 30px;
+}
+.me{
+    background:#111111;
+    color: aliceblue;
+    font-size: 13px;
+    margin-right: auto;
+    padding: 20px 5px 20px; 
+    line-height: 22px;
+    justify-content: flex;                 
+   
+}
+.contact{
+    background:#111111;
+    color: aliceblue;
+    font-size: 13px;
+    margin-right: auto;
+    padding: 20px 5px 20px; 
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+}
+.contact a{
+    text-decoration: none;
+    line-height: 22px;
+    font-size:15px;
+    color: rgb(226, 17, 100);
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: rgb(37, 123, 216);
+}
+footer{
+    text-align: center;
+    font-size: medium;
+    background-color: rgb(242, 239, 234);
+  }
